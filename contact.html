@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="CSS/contact.css">
+  <title>Contact</title>
+  <style>
+  </style>
+  <link rel="icon" href="/Afbeeldingen/favicon.ico" type="ico" sizes="16x16">
+</head>
+
+
+<div id="Sidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html" target="_blank">Index</a>
+  <a href="CV.html" target="_blank">CV</a>
+  <a href="ervaringen.html" target="_blank">Ervaringen</a>
+  <a href="hobby.html" target="_blank">Hobby's/ <br>Interesses</a>
+  <a href="contact.html" target="_blank">Contact</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+  <h2>Sybe Lardot</h2>
+  <h3>Contact</h3>
+  <div class="text_contact">
+    Als je contact wil opnemen of meer informatie nodig hebt, aarzel dan zeker niet om mij een mailtje te sturen. Ook kan je alvast een kijkje nemen op mijn Linkedin pagina.
+    <br><br><a href="mailto: sybe.lardot@hotmail.com" target="_blank">sybe.lardot@hotmail.com</a>
+    <br><a href="https://www.linkedin.com/in/sybe-lardot-389379250?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bf9389Gc9TWaliGa81goctg%3D%3D" target="_blank">linkedin</a>
+
+</div>
+<div class="form">
+  <form action="https://tm-statweb.be/forms.php" method="get">
+    <div>
+      <label for="naam">Voornaam: <input type="text" name="voornaam" id="voornaam" required> </label>
+    </div>
+    <div>
+      <label for="e-mail">e-mail: <input type="text" name="e-mail" id="e-mail" required ></label>
+    </div>
+    <div>
+      <label for="onderwerp">onderwerp: <input type="text" name="onderwerp" id="onderwerp" required ></label>
+    </div>
+    <label for="freeform">Uw vraag:</label>
+  <br>
+  <textarea id="freeform" name="freeform" rows="4" cols="50">
+  </textarea><br><br>
+    <div>
+      <input type="submit" value="Versturen">
+    </div>
+    </form>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("Sidebar").style.width = "160px";
+  document.getElementById("main").style.marginLeft = "175px";
+}
+
+function closeNav() {
+  document.getElementById("Sidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+
+
+
+
+
+<body>
+  
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

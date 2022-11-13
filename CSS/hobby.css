@@ -1,0 +1,175 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: aliceblue;
+  font-size: large;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(79, 99, 158);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(79, 99, 158);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: rgb(97, 111, 153);
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.foto1{
+  width: 220px;
+  height: 300px;
+  margin-right: 320px;
+  display: block;
+  float: right;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.foto2{
+  width: 420px;
+  height: 300px;
+  margin-right: 200px;
+  display: block;
+  float: right;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.foto3{
+  width: 250px;
+  height: 300px;
+  margin-right: 300px;
+  display: block;
+  float: right;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.foto4{
+  width: 220px;
+  height: 320px;
+  margin-right: 100px;
+  margin-left: 250px;
+  display: block;
+  float: left;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.foto5{
+  width: 220px;
+  height: 320px;
+  margin-right: 100px;
+  margin-left: 100px;
+  display: block;
+  float: left;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.foto6{
+  width: 220px;
+  height: 320px;
+  margin-right: 0px;
+  margin-left: 100px;
+  display: block;
+  float: left;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.foto7{
+  width: 450px;
+  height: 300px;
+  margin-right: 0px;
+  margin-left: 260px;
+  display: block;
+  float: left;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.foto8{
+  width: 450px;
+  height: 300px;
+  margin-right: 0px;
+  margin-left: 150px;
+  display: block;
+  float: left;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.text_sport,.text_wandelen,.text_avond,.text_pc,.text_dier{
+  width:750px;
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: rgb(79, 99, 158);
+  color: #f1f1f1;
+  display: inline-block;
+  vertical-align: top;
+  font-size: x-large;
+  border: 2px;
+  border-style: solid;
+  border-radius: 8px;
+}
+.text_pc{
+  width: 80%;
+  margin-left: 125px;
+}
+.text_dier{
+  display: inline-block;
+  width: 60%;
+  margin-left: 280px;
+}
+h2{
+  margin-left: 50px;
+}
+h3{
+  margin-left: 50px;
+}
+.table{
+  margin-left: 40%;
+}

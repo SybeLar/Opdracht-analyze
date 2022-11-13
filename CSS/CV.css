@@ -1,0 +1,144 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color:aliceblue;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(79, 99, 158);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(79, 99, 158);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: rgb(97, 111, 153);
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.foto1{
+  width: 100px;
+  height: 140px;
+  margin-right: 80px;
+  display: inline-block;
+  float: right;
+}
+.text_start{
+  width:350px;
+  margin-left: 50px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+}
+h2{
+  margin-left: 175px;
+}
+h3{
+  margin-left: 220px;
+}
+h4{
+  margin-left: 36%;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.opleiding{
+  margin-left: 43%;
+}
+.talen{
+  margin-left:41%
+}
+p{
+  margin-left: 8%;
+  margin-bottom: 0px;
+  margin-top:0px;
+}
+.CV{
+  margin-left: 30%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(79, 99, 158);
+  border: 10px;
+  border-radius: 50px;
+  width:600px;
+  height: 900px;
+  color: #f1f1f1;
+}
+.jaartal{
+  margin-top: 10px;
+}
+.taal{
+  display: block;
+  float: left;
+}
+.kennis{
+  display: block;
+  float: right;
+  margin-right: 50px;
+}
+.vaardigheden{
+  margin-left: 40%;
+}
+.werk{
+  margin-left:41%;
+}
+h5{
+  margin-left:50px;
+  text-decoration: underline;
+}
+.Werk{
+  display: block;
+  float: left;
+}
+.datum{
+  display: block;
+  float: right;
+  margin-right: 50px;
+}
