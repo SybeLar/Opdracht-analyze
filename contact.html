@@ -4,21 +4,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="CSS/contact.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <title>Contact</title>
   <style>
   </style>
-  <link rel="icon" href="/Afbeeldingen/favicon.ico" type="ico" sizes="16x16">
+  <link rel="icon" href="images/favicon.jpg" type="jpg" sizes="16x16">
 </head>
 
 
 <div id="Sidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="index.html" target="_blank">Index</a>
-  <a href="CV.html" target="_blank">CV</a>
-  <a href="ervaringen.html" target="_blank">Ervaringen</a>
-  <a href="hobby.html" target="_blank">Hobby's/ <br>Interesses</a>
-  <a href="contact.html" target="_blank">Contact</a>
+  <a href="index.html">Index</a>
+  <a href="CV.html">CV</a>
+  <a href="ervaringen.html">Ervaringen</a>
+  <a href="hobby.html">Hobby's/ <br>Interesses</a>
+  <a href="contact.html">Contact</a>
 </div>
 
 <div id="main">
@@ -26,31 +29,109 @@
   <h2>Sybe Lardot</h2>
   <h3>Contact</h3>
   <div class="text_contact">
-    Als je contact wil opnemen of meer informatie nodig hebt, aarzel dan zeker niet om mij een mailtje te sturen. Ook kan je alvast een kijkje nemen op mijn Linkedin pagina.
+    Als je contact wil opnemen of meer informatie nodig hebt, aarzel dan zeker niet om onderstaand formulier in te vullen.<br> Ook kan je alvast een kijkje nemen op mijn Linkedin pagina.
     <br><br><a href="mailto: sybe.lardot@hotmail.com" target="_blank">sybe.lardot@hotmail.com</a>
     <br><a href="https://www.linkedin.com/in/sybe-lardot-389379250?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bf9389Gc9TWaliGa81goctg%3D%3D" target="_blank">linkedin</a>
-
-</div>
-<div class="form">
-  <form action="https://tm-statweb.be/forms.php" method="get">
-    <div>
-      <label for="naam">Voornaam: <input type="text" name="voornaam" id="voornaam" required> </label>
+    <br><br>
+    <br>  
+      <form action="https://tm-statweb.be/forms.php" method="get">
+      <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Naam</label>
+      <input type="text" class="form-control" id="naam" placeholder="Naam" required>
+      </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Voornaam</label>
+      <input type="text" class="form-control" id="voornaam" placeholder="Voornaam" required>
     </div>
-    <div>
-      <label for="e-mail">e-mail: <input type="text" name="e-mail" id="e-mail" required ></label>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="mail" placeholder="name@example.com" required>
     </div>
-    <div>
-      <label for="onderwerp">onderwerp: <input type="text" name="onderwerp" id="onderwerp" required ></label>
+    <div class="mb-3">
+      <br>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Interesse in skills</option>
+      <option value="1">HTML</option>
+      <option value="2">CSS</option>
+      <option value="3">Bootsrap</option>
+      <option value="4">Pc's bouwen</option>
+    </select>
     </div>
-    <label for="freeform">Uw vraag:</label>
-  <br>
-  <textarea id="freeform" name="freeform" rows="4" cols="50">
-  </textarea><br><br>
+    <br>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Uw Vraag</label>
+      <textarea class="form-control" id="vraag" rows="10"></textarea>
+    </div><br>
     <div>
       <input type="submit" value="Versturen">
     </div>
     </form>
+  </div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- Footer -->
+<footer
+class="text-center text-lg-start text-white"
+style="background-color: #1c2331"
+>
+<!-- Section: Social media -->
+<section class="d-flex justify-content-between p-4" style="background-color: rgb(79, 99, 158)">
+
+<div class="me-5">
+<span>&copy; Sybe Lardot</span>
+</div>
+
+<div>
+<a href="" class="text-white me-4">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a href="" class="text-white me-4">
+<i class="fab fa-twitter"></i>
+</a>
+<a href="" class="text-white me-4">
+<i class="fab fa-google"></i>
+</a>
+<a href="" class="text-white me-4">
+<img src="images/outlook.png" style="width:45px">
+</a>
+<a href="" class="text-white me-4">
+<img src="images/twitter.png" style="width:45px">
+</a>
+<a href="" class="text-white me-4">
+<img src="images/facebook.png" style="width:45px">
+</a>
+</div>
+</section>
+<script>
+function openNav() {
+  document.getElementById("Sidebar").style.width = "160px";
+  document.getElementById("main").style.marginLeft = "175px";
+}
+
+function closeNav() {
+  document.getElementById("Sidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 
 <script>
 function openNav() {

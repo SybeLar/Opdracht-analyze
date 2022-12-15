@@ -3,6 +3,11 @@ body {
   background-color: aliceblue;
   font-size: large;
 }
+.inleiding{
+  display: flex;
+  text-align: start;
+  
+}
 
 .sidebar {
   height: 100%;
@@ -45,6 +50,7 @@ body {
   color: white;
   padding: 10px 15px;
   border: none;
+  position: fixed;
 }
 
 .openbtn:hover {
@@ -64,27 +70,21 @@ body {
 .foto1{
   width: 220px;
   height: 300px;
-  margin-right: 320px;
-  display: block;
-  float: right;
-  margin-bottom: 0px;
-  margin-top: 40px;
   border-radius: 5px;
+  display: block; 
 }
 .foto2{
   width: 420px;
   height: 300px;
-  margin-right: 200px;
   display: block;
-  float: right;
   margin-top: 40px;
   margin-bottom: 50px;
   border-radius: 5px;
 }
 .foto3{
-  width: 250px;
-  height: 300px;
-  margin-right: 300px;
+  width: 105.5%;
+  height: 100%;
+  margin-left: 0% !important;
   display: block;
   float: right;
   margin-bottom: 50px;
@@ -124,7 +124,6 @@ body {
   width: 450px;
   height: 300px;
   margin-right: 0px;
-  margin-left: 260px;
   display: block;
   float: left;
   margin-bottom: 50px;
@@ -134,22 +133,21 @@ body {
   width: 450px;
   height: 300px;
   margin-right: 0px;
-  margin-left: 150px;
+  margin-left: 10%;
   display: block;
   float: left;
   margin-bottom: 50px;
   border-radius: 5px;
 }
 .text_sport,.text_wandelen,.text_avond,.text_pc,.text_dier{
-  width:750px;
+  width:auto;
   margin: 10px;
-  margin-left: 50px;
-  margin-right: 20px;
+  margin-left: 10%;
+  margin-top: 5%;
   padding: 10px;
   background-color: rgb(79, 99, 158);
   color: #f1f1f1;
-  display: inline-block;
-  vertical-align: top;
+  display: block;
   font-size: x-large;
   border: 2px;
   border-style: solid;
@@ -172,4 +170,29 @@ h3{
 }
 .table{
   margin-left: 40%;
+}
+.card {
+  margin: 0 auto;
+  margin-top: 50px;
+  float: none;
+  margin-bottom: 10px;
+  font-size: large;
+}
+.card-body{
+  background-color: rgb(79, 99, 158);
+  color: #f1f1f1;
+  border-radius: 5px;
+}
+.card-title{
+  font-size: x-large;
+}
+.row.row-no-margin {
+  margin-left: 5%;
+  margin-right: 0px;
+  border: 5px;
+}
+
+.col-no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }

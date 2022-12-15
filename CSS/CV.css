@@ -44,6 +44,7 @@ body {
   color: white;
   padding: 10px 15px;
   border: none;
+  position: fixed;
 }
 
 .openbtn:hover {
@@ -63,74 +64,52 @@ body {
 }
 
 .foto1{
-  width: 100px;
-  height: 140px;
+  width: 130px;
+  height: 180px;
   margin-right: 80px;
   display: inline-block;
-  float: right;
 }
-.text_start{
-  width:350px;
-  margin-left: 50px;
-  display: inline-block;
-  vertical-align: top;
-  font-size: medium;
-}
-h2{
-  margin-left: 175px;
-}
-h3{
-  margin-left: 220px;
+h2, h3{
+  margin-left: 350px;
+  margin-top:50px;
+  margin-bottom: 0;
 }
 h4{
-  margin-left: 36%;
   text-decoration: underline;
   margin-bottom: 30px;
   margin-top: 20px;
 }
-.opleiding{
-  margin-left: 43%;
+
+.gegevens{
+  text-align: left;
+  padding-left: 150px;
+  margin-bottom: 0;
 }
-.talen{
-  margin-left:41%
-}
-p{
-  margin-left: 8%;
-  margin-bottom: 0px;
-  margin-top:0px;
-}
+
 .CV{
-  margin-left: 30%;
   display: inline-block;
   align-items: center;
   justify-content: center;
   background-color: rgb(79, 99, 158);
   border: 10px;
   border-radius: 50px;
-  width:600px;
-  height: 900px;
+  width:800px;
+  height: 1695px;
   color: #f1f1f1;
 }
 .jaartal{
   margin-top: 10px;
 }
-.taal{
-  display: block;
-  float: left;
+
+.opleiding{
+  text-align: center;
+  margin-top: 70px;
 }
-.kennis{
-  display: block;
-  float: right;
-  margin-right: 50px;
-}
-.vaardigheden{
-  margin-left: 40%;
-}
-.werk{
-  margin-left:41%;
+.vaardighedenTekst{
+  text-align: center;
 }
 h5{
-  margin-left:50px;
+  
   text-decoration: underline;
 }
 .Werk{
@@ -142,3 +121,8 @@ h5{
   float: right;
   margin-right: 50px;
 }
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }

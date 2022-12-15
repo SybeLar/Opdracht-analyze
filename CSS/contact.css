@@ -80,3 +80,38 @@ h3{
 .form{
   margin-left: 100px;
 }
+input[type=submit]{
+  font-size: large;
+  background-color: rgb(79, 99, 158);
+  color: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+  width: 10%;
+  height: 20%;
+}
+.form-select{
+  background-color: rgb(79, 99, 158);
+  color: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+  width: 9%;
+}
+input[type=text]{
+  font-size: large;
+  background-color: rgb(79, 99, 158);
+  color: #f1f1f1;
+}
+input[type=email]{
+  font-size: large;
+  background-color: rgb(79, 99, 158);
+  color: #f1f1f1;
+}
+#vraag{
+  font-size: large;
+  background-color: rgb(79, 99, 158);
+  color: #f1f1f1;
+}
+.card{
+  border: 5px;
+  border-color: black;
+}
